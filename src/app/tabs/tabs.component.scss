@@ -1,0 +1,40 @@
+@import "../../styles.scss";
+
+.tabs-container{
+    margin-top: 70px;
+}
+
+.tab-pane{ 
+    border-bottom: 1px solid $mygray;
+    border-left: 1px solid $mygray;
+    border-right: 1px solid $mygray;
+    border-bottom-right-radius: .5em;
+    border-bottom-left-radius: .5em;
+    padding: 20px;
+}
+
+.input-search{
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .tabs-hide{
+      display: none;
+  }
+  .dropd{
+      display: block;
+  }
+}
+@media screen and (min-width: 800px) {
+  .dropd{
+      display: none;
+  }
+}
+
+.dropd-btn{
+    width: 100%;
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
